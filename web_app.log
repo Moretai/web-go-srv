@@ -1,0 +1,15 @@
+{"level":"DEBUG","time":"2021-10-11T23:39:12.726+0800","caller":"web_app/main.go:35","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-10-11T23:39:12.751+0800","caller":"mysql/mysql.go:27","msg":"init mysql failed","error":"Error 1045: Access denied for user 'root'@'localhost' (using password: YES)"}
+{"level":"ERROR","time":"2021-10-11T23:39:12.751+0800","caller":"web_app/main.go:40","msg":"init mysql failed","error":"Error 1045: Access denied for user 'root'@'localhost' (using password: YES)"}
+{"level":"DEBUG","time":"2021-10-11T23:39:34.235+0800","caller":"web_app/main.go:35","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-10-11T23:39:34.237+0800","caller":"mysql/mysql.go:27","msg":"init mysql failed","error":"Error 1045: Access denied for user 'root'@'localhost' (using password: YES)"}
+{"level":"ERROR","time":"2021-10-11T23:39:34.237+0800","caller":"web_app/main.go:40","msg":"init mysql failed","error":"Error 1045: Access denied for user 'root'@'localhost' (using password: YES)"}
+{"level":"DEBUG","time":"2021-10-11T23:39:45.185+0800","caller":"web_app/main.go:35","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-10-11T23:39:45.187+0800","caller":"mysql/mysql.go:27","msg":"init mysql failed","error":"Error 1045: Access denied for user 'root'@'localhost' (using password: YES)"}
+{"level":"ERROR","time":"2021-10-11T23:39:45.187+0800","caller":"web_app/main.go:40","msg":"init mysql failed","error":"Error 1045: Access denied for user 'root'@'localhost' (using password: YES)"}
+{"level":"DEBUG","time":"2021-10-11T23:40:37.633+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-10-11T23:40:37.636+0800","caller":"mysql/mysql.go:27","msg":"init mysql failed","error":"Error 1045: Access denied for user 'root'@'localhost' (using password: YES)"}
+{"level":"ERROR","time":"2021-10-11T23:40:37.636+0800","caller":"web_app/main.go:43","msg":"init mysql failed","error":"Error 1045: Access denied for user 'root'@'localhost' (using password: YES)"}
+{"level":"DEBUG","time":"2021-10-11T23:41:01.703+0800","caller":"web_app/main.go:39","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-10-11T23:41:01.706+0800","caller":"mysql/mysql.go:27","msg":"init mysql failed","error":"Error 1045: Access denied for user 'root'@'localhost' (using password: YES)"}
+{"level":"ERROR","time":"2021-10-11T23:41:01.706+0800","caller":"web_app/main.go:44","msg":"init mysql failed","error":"Error 1045: Access denied for user 'root'@'localhost' (using password: YES)"}
