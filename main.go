@@ -30,7 +30,7 @@ func main() {
 	}
 	fmt.Println("init setting success...")
 	// 2. init log
-	if err := logger.Init(); err != nil {
+	if err := logger.Init(settings.Conf.LogConfig); err != nil {
 		fmt.Printf("init logger failed, err: %v\n", err)
 		return
 	}
@@ -39,7 +39,7 @@ func main() {
 	zap.L().Debug("logger init success...")
 
 	//3. init MySql database
-	if err := mysql.Init(); err != nil {
+	if err := mysql.Init(settings.Conf.MySQLConfig); err != nil {
 		//fmt.Printf("init mysql failed, err: %v\n", err)
 		zap.L().Error("init mysql failed", zap.Error(err))
 		return
@@ -47,7 +47,7 @@ func main() {
 	defer mysql.Close()
 
 	// 4. init redis
-	if err := redis.Init(); err != nil {
+	if err := redis.Init(settings.Conf.RedisConfig); err != nil {
 		fmt.Printf("init redis failed, err: %v\n", err)
 		return
 	}

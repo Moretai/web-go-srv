@@ -2,8 +2,7 @@ package redis
 
 import (
 	"fmt"
-
-	"github.com/spf13/viper"
+	"web_app/settings"
 
 	"github.com/go-redis/redis"
 )
@@ -12,15 +11,15 @@ import (
 var rdb *redis.Client
 
 // 初始化连接
-func Init() (err error) {
+func Init(config *settings.RedisConfig) (err error) {
 	rdb = redis.NewClient(&redis.Options{
 		Addr: fmt.Sprintf("%s:%d",
-			viper.GetString("redis.host"),
-			viper.GetInt("redis.port"),
+			config.Host,
+			config.Port,
 		),
-		Password: viper.GetString("redis.password"), // no password set
-		DB:       viper.GetInt("redis.db"),          // use default DB
-		PoolSize: viper.GetInt("redis.pool_size"),
+		Password: config.Password, // no password set
+		DB:       config.Db,       // use default DB
+		PoolSize: config.PoolSize,
 	})
 
 	_, err = rdb.Ping().Result()
