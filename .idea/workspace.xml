@@ -24,6 +24,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -33,10 +34,16 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/conf" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="go build web_app" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="web_app" />
       <working_directory value="$PROJECT_DIR$" />
+      <parameters value="./conf/config.yaml" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/main.go" />
       <package value="web_app" />
@@ -57,6 +64,10 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
+    <state x="303" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1634170179639">
+      <screen x="0" y="23" width="1397" height="877" />
+    </state>
+    <state x="303" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1397.877@0.23.1397.877" timestamp="1634170179639" />
     <state x="522" y="270" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1634137663857">
       <screen x="0" y="23" width="1397" height="877" />
     </state>
@@ -65,29 +76,29 @@
       <screen x="0" y="23" width="1397" height="877" />
     </state>
     <state x="560" y="256" key="EditFileWatcherDialog/0.23.1397.877@0.23.1397.877" timestamp="1633962696070" />
-    <state width="757" height="292" key="GridCell.Tab.0.bottom" timestamp="1634142180948">
+    <state width="920" height="231" key="GridCell.Tab.0.bottom" timestamp="1634170989490">
       <screen x="0" y="23" width="1397" height="877" />
     </state>
-    <state width="757" height="292" key="GridCell.Tab.0.bottom/0.23.1397.877@0.23.1397.877" timestamp="1634142180948" />
-    <state width="757" height="292" key="GridCell.Tab.0.center" timestamp="1634142180948">
+    <state width="920" height="231" key="GridCell.Tab.0.bottom/0.23.1397.877@0.23.1397.877" timestamp="1634170989490" />
+    <state width="920" height="231" key="GridCell.Tab.0.center" timestamp="1634170989489">
       <screen x="0" y="23" width="1397" height="877" />
     </state>
-    <state width="757" height="292" key="GridCell.Tab.0.center/0.23.1397.877@0.23.1397.877" timestamp="1634142180948" />
-    <state width="757" height="292" key="GridCell.Tab.0.left" timestamp="1634142180947">
+    <state width="920" height="231" key="GridCell.Tab.0.center/0.23.1397.877@0.23.1397.877" timestamp="1634170989489" />
+    <state width="920" height="231" key="GridCell.Tab.0.left" timestamp="1634170989488">
       <screen x="0" y="23" width="1397" height="877" />
     </state>
-    <state width="757" height="292" key="GridCell.Tab.0.left/0.23.1397.877@0.23.1397.877" timestamp="1634142180947" />
-    <state width="757" height="292" key="GridCell.Tab.0.right" timestamp="1634142180948">
+    <state width="920" height="231" key="GridCell.Tab.0.left/0.23.1397.877@0.23.1397.877" timestamp="1634170989488" />
+    <state width="920" height="231" key="GridCell.Tab.0.right" timestamp="1634170989489">
       <screen x="0" y="23" width="1397" height="877" />
     </state>
-    <state width="757" height="292" key="GridCell.Tab.0.right/0.23.1397.877@0.23.1397.877" timestamp="1634142180948" />
+    <state width="920" height="231" key="GridCell.Tab.0.right/0.23.1397.877@0.23.1397.877" timestamp="1634170989489" />
     <state x="415" y="110" key="SettingsEditor" timestamp="1633962698012">
       <screen x="0" y="23" width="1397" height="877" />
     </state>
     <state x="415" y="110" key="SettingsEditor/0.23.1397.877@0.23.1397.877" timestamp="1633962698012" />
-    <state x="626" y="216" width="598" height="490" key="find.popup" timestamp="1634141328989">
+    <state x="626" y="216" width="598" height="490" key="find.popup" timestamp="1634143351792">
       <screen x="0" y="23" width="1397" height="877" />
     </state>
-    <state x="626" y="216" width="598" height="490" key="find.popup/0.23.1397.877@0.23.1397.877" timestamp="1634141328989" />
+    <state x="626" y="216" width="598" height="490" key="find.popup/0.23.1397.877@0.23.1397.877" timestamp="1634143351792" />
   </component>
 </project>

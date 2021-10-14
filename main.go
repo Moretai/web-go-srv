@@ -12,10 +12,9 @@ import (
 	"web_app/dao/mysql"
 	"web_app/dao/redis"
 	"web_app/logger"
+	"web_app/pkg/snowflake"
 	"web_app/routes"
 	"web_app/settings"
-
-	"github.com/spf13/viper"
 
 	"go.uber.org/zap"
 )
@@ -23,8 +22,13 @@ import (
 //go web 脚手架
 
 func main() {
+	if len(os.Args) < 2 {
+		fmt.Println("need config file.")
+		return
+	}
+
 	// 1. load setting
-	if err := settings.Init(); err != nil {
+	if err := settings.Init(os.Args[1]); err != nil {
 		fmt.Printf("init setting failed, err: %v\n", err)
 		return
 	}
@@ -53,13 +57,20 @@ func main() {
 	}
 	defer redis.Close()
 
+	if err := snowflake.Init(settings.Conf.StartTime, settings.Conf.MachineId); err != nil {
+		fmt.Printf("init snowflake failed, err: %v\n", err)
+		return
+	}
+
+	fmt.Printf("init snowflake id: %d\n", snowflake.GenID())
+
 	// 5. register route
 	r := routes.SetUp()
 
 	// 6. startup service (terminal elegantly)
 
 	srv := &http.Server{
-		Addr:    fmt.Sprintf(":%d", viper.GetInt("app.port")),
+		Addr:    fmt.Sprintf(":%d", settings.Conf.Port),
 		Handler: r,
 	}
 

@@ -10,10 +10,13 @@ import (
 var Conf = new(AppConfig)
 
 type AppConfig struct {
-	Name         string `mapstructure:"name"`
-	Mode         string `mapstructure:"mode"`
-	Version      string `mapstructure:"version"`
-	Port         int    `mapstructure:"port"`
+	Name      string `mapstructure:"name"`
+	Mode      string `mapstructure:"mode"`
+	Version   string `mapstructure:"version"`
+	Port      int    `mapstructure:"port"`
+	StartTime string `mapstructure:"start_time"`
+	MachineId int64  `mapstructure:"machine_id"`
+
 	*LogConfig   `mapstructure:"log"`
 	*MySQLConfig `mapstructure:"mysql"`
 	*RedisConfig `mapstructure:"redis"`
@@ -45,10 +48,12 @@ type RedisConfig struct {
 	PoolSize int    `mapstructure:"pool_size"`
 }
 
-func Init() (err error) {
-	viper.SetConfigName("config")
-	viper.SetConfigType("yaml")
-	viper.AddConfigPath(".")
+func Init(filename string) (err error) {
+	viper.SetConfigFile(filename)
+	//viper.SetConfigName("config")
+	//viper.SetConfigType("yaml")
+	//viper.AddConfigPath(".")
+	//viper.AddConfigPath("./conf")
 
 	if err := viper.ReadInConfig(); err != nil {
 		fmt.Printf("viper ReadInConfig failed, err: %v\n", err)
@@ -58,6 +63,8 @@ func Init() (err error) {
 	if err := viper.Unmarshal(Conf); err != nil {
 		fmt.Printf("viper.Unmarshal failed, err:#{err}\n")
 	}
+
+	fmt.Printf("viper.Unmarshal success, Conf:%+v\n", Conf)
 
 	viper.WatchConfig()
 	viper.OnConfigChange(func(in fsnotify.Event) {

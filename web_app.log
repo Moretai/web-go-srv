@@ -1,8 +1,20 @@
-{"level":"DEBUG","time":"2021-10-14T00:22:26.706+0800","caller":"web_app/main.go:39","msg":"logger init success..."}
-{"level":"INFO","time":"2021-10-14T00:22:59.629+0800","caller":"web_app/main.go:81","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2021-10-14T00:22:59.631+0800","caller":"web_app/main.go:90","msg":"Server exiting"}
-{"level":"DEBUG","time":"2021-10-14T00:23:00.916+0800","caller":"web_app/main.go:39","msg":"logger init success..."}
-{"level":"INFO","time":"2021-10-14T00:26:07.140+0800","caller":"web_app/main.go:81","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2021-10-14T00:26:07.142+0800","caller":"web_app/main.go:90","msg":"Server exiting"}
-{"level":"DEBUG","time":"2021-10-14T00:26:09.389+0800","caller":"web_app/main.go:39","msg":"logger init success..."}
-{"level":"INFO","time":"2021-10-14T00:26:19.823+0800","caller":"logger/logger.go:71","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"127.0.0.1","user-agent":"curl/7.54.0","errors":"","cost":0.000041497}
+{"level":"DEBUG","time":"2021-10-14T08:11:53.752+0800","caller":"web_app/main.go:45","msg":"logger init success..."}
+{"level":"DEBUG","time":"2021-10-14T08:12:53.607+0800","caller":"web_app/main.go:45","msg":"logger init success..."}
+{"level":"DEBUG","time":"2021-10-14T08:15:23.418+0800","caller":"web_app/main.go:45","msg":"logger init success..."}
+{"level":"INFO","time":"2021-10-14T08:16:33.803+0800","caller":"web_app/main.go:94","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-10-14T08:16:33.804+0800","caller":"web_app/main.go:103","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-10-14T08:16:35.333+0800","caller":"web_app/main.go:43","msg":"logger init success..."}
+{"level":"INFO","time":"2021-10-14T08:16:40.814+0800","caller":"routes/routes.go:18","msg":"saa:","status":"dev"}
+{"level":"INFO","time":"2021-10-14T08:16:40.814+0800","caller":"logger/logger.go:71","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"127.0.0.1","user-agent":"curl/7.54.0","errors":"","cost":0.000129572}
+{"level":"INFO","time":"2021-10-14T08:17:03.137+0800","caller":"web_app/main.go:92","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-10-14T08:17:03.139+0800","caller":"web_app/main.go:101","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-10-14T08:17:04.739+0800","caller":"web_app/main.go:43","msg":"logger init success..."}
+{"level":"INFO","time":"2021-10-14T08:17:06.677+0800","caller":"routes/routes.go:18","msg":"saa:","status":"dev"}
+{"level":"INFO","time":"2021-10-14T08:17:06.677+0800","caller":"logger/logger.go:71","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"127.0.0.1","user-agent":"curl/7.54.0","errors":"","cost":0.000086681}
+{"level":"INFO","time":"2021-10-14T08:17:13.212+0800","caller":"routes/routes.go:18","msg":"saa:","status":"dev"}
+{"level":"INFO","time":"2021-10-14T08:17:13.212+0800","caller":"logger/logger.go:71","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"127.0.0.1","user-agent":"curl/7.54.0","errors":"","cost":0.000071728}
+{"level":"INFO","time":"2021-10-14T08:22:16.245+0800","caller":"web_app/main.go:92","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-10-14T08:22:16.248+0800","caller":"web_app/main.go:101","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-10-14T08:22:18.519+0800","caller":"web_app/main.go:43","msg":"logger init success..."}
+{"level":"INFO","time":"2021-10-14T08:22:38.848+0800","caller":"logger/logger.go:71","msg":"/signuo","status":404,"method":"POST","path":"/signuo","query":"","ip":"127.0.0.1","user-agent":"curl/7.54.0","errors":"","cost":0.0000006}
+{"level":"INFO","time":"2021-10-14T08:22:40.525+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"curl/7.54.0","errors":"","cost":0.000070126}
