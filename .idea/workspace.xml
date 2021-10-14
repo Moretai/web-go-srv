@@ -64,41 +64,49 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
+    <state x="168" y="298" key="#SQL_Dialects" timestamp="1634221636769">
+      <screen x="0" y="23" width="1397" height="877" />
+    </state>
+    <state x="168" y="298" key="#SQL_Dialects/0.23.1397.877@0.23.1397.877" timestamp="1634221636769" />
     <state x="303" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1634170179639">
       <screen x="0" y="23" width="1397" height="877" />
     </state>
     <state x="303" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1397.877@0.23.1397.877" timestamp="1634170179639" />
-    <state x="522" y="270" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1634137663857">
+    <state x="522" y="270" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1634222875295">
       <screen x="0" y="23" width="1397" height="877" />
     </state>
-    <state x="522" y="270" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1397.877@0.23.1397.877" timestamp="1634137663857" />
+    <state x="522" y="270" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1397.877@0.23.1397.877" timestamp="1634222875295" />
     <state x="560" y="256" key="EditFileWatcherDialog" timestamp="1633962696070">
       <screen x="0" y="23" width="1397" height="877" />
     </state>
     <state x="560" y="256" key="EditFileWatcherDialog/0.23.1397.877@0.23.1397.877" timestamp="1633962696070" />
-    <state width="920" height="231" key="GridCell.Tab.0.bottom" timestamp="1634170989490">
+    <state width="1141" height="303" key="GridCell.Tab.0.bottom" timestamp="1634222887693">
       <screen x="0" y="23" width="1397" height="877" />
     </state>
-    <state width="920" height="231" key="GridCell.Tab.0.bottom/0.23.1397.877@0.23.1397.877" timestamp="1634170989490" />
-    <state width="920" height="231" key="GridCell.Tab.0.center" timestamp="1634170989489">
+    <state width="1141" height="303" key="GridCell.Tab.0.bottom/0.23.1397.877@0.23.1397.877" timestamp="1634222887693" />
+    <state width="1141" height="303" key="GridCell.Tab.0.center" timestamp="1634222887693">
       <screen x="0" y="23" width="1397" height="877" />
     </state>
-    <state width="920" height="231" key="GridCell.Tab.0.center/0.23.1397.877@0.23.1397.877" timestamp="1634170989489" />
-    <state width="920" height="231" key="GridCell.Tab.0.left" timestamp="1634170989488">
+    <state width="1141" height="303" key="GridCell.Tab.0.center/0.23.1397.877@0.23.1397.877" timestamp="1634222887693" />
+    <state width="1141" height="303" key="GridCell.Tab.0.left" timestamp="1634222887692">
       <screen x="0" y="23" width="1397" height="877" />
     </state>
-    <state width="920" height="231" key="GridCell.Tab.0.left/0.23.1397.877@0.23.1397.877" timestamp="1634170989488" />
-    <state width="920" height="231" key="GridCell.Tab.0.right" timestamp="1634170989489">
+    <state width="1141" height="303" key="GridCell.Tab.0.left/0.23.1397.877@0.23.1397.877" timestamp="1634222887692" />
+    <state width="1141" height="303" key="GridCell.Tab.0.right" timestamp="1634222887693">
       <screen x="0" y="23" width="1397" height="877" />
     </state>
-    <state width="920" height="231" key="GridCell.Tab.0.right/0.23.1397.877@0.23.1397.877" timestamp="1634170989489" />
+    <state width="1141" height="303" key="GridCell.Tab.0.right/0.23.1397.877@0.23.1397.877" timestamp="1634222887693" />
     <state x="415" y="110" key="SettingsEditor" timestamp="1633962698012">
       <screen x="0" y="23" width="1397" height="877" />
     </state>
     <state x="415" y="110" key="SettingsEditor/0.23.1397.877@0.23.1397.877" timestamp="1633962698012" />
-    <state x="626" y="216" width="598" height="490" key="find.popup" timestamp="1634143351792">
+    <state x="626" y="216" width="598" height="490" key="find.popup" timestamp="1634222771473">
       <screen x="0" y="23" width="1397" height="877" />
     </state>
-    <state x="626" y="216" width="598" height="490" key="find.popup/0.23.1397.877@0.23.1397.877" timestamp="1634143351792" />
+    <state x="626" y="216" width="598" height="490" key="find.popup/0.23.1397.877@0.23.1397.877" timestamp="1634222771473" />
+    <state x="697" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1634220903294">
+      <screen x="0" y="23" width="1397" height="877" />
+    </state>
+    <state x="697" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1397.877@0.23.1397.877" timestamp="1634220903294" />
   </component>
 </project>

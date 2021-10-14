@@ -1,0 +1,1 @@
+ curl -H "Content-type: application/json" -X POST -d '{"username":"more","password":"110", "re_password":"110"}' http://127.0.0.1:8081/signup
