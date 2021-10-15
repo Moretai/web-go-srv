@@ -86,3 +86,27 @@
 {"level":"INFO","time":"2021-10-15T15:08:15.817+0800","caller":"logger/logger.go:80","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"curl/7.54.0","errors":"","cost":0.000524986}
 {"level":"ERROR","time":"2021-10-15T15:08:26.763+0800","caller":"controller/user.go:18","msg":"Sign up with invalid param","error":"EOF"}
 {"level":"INFO","time":"2021-10-15T15:08:26.763+0800","caller":"logger/logger.go:80","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"curl/7.54.0","errors":"","cost":0.000234893}
+{"level":"INFO","time":"2021-10-15T15:12:50.874+0800","caller":"web_app/main.go:92","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-10-15T15:12:50.875+0800","caller":"web_app/main.go:101","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-10-15T15:12:50.989+0800","caller":"web_app/main.go:43","msg":"logger init success..."}
+{"level":"INFO","time":"2021-10-15T15:12:55.947+0800","caller":"web_app/main.go:92","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-10-15T15:12:55.948+0800","caller":"web_app/main.go:101","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-10-15T16:30:11.653+0800","caller":"web_app/main.go:43","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-10-15T16:30:17.579+0800","caller":"controller/user.go:18","msg":"Sign up with invalid param","error":"EOF"}
+{"level":"INFO","time":"2021-10-15T16:30:17.580+0800","caller":"logger/logger.go:80","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"curl/7.54.0","errors":"","cost":0.000338662}
+{"level":"INFO","time":"2021-10-15T16:34:08.056+0800","caller":"web_app/main.go:92","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-10-15T16:34:08.058+0800","caller":"web_app/main.go:101","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-10-15T16:34:55.034+0800","caller":"web_app/main.go:43","msg":"logger init success..."}
+{"level":"DEBUG","time":"2021-10-15T17:06:55.193+0800","caller":"web_app/main.go:43","msg":"logger init success..."}
+{"level":"INFO","time":"2021-10-15T17:07:42.794+0800","caller":"web_app/main.go:92","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-10-15T17:07:42.796+0800","caller":"web_app/main.go:101","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-10-15T17:07:44.419+0800","caller":"web_app/main.go:43","msg":"logger init success..."}
+{"level":"INFO","time":"2021-10-15T17:08:01.504+0800","caller":"logger/logger.go:80","msg":"/ping","status":200,"method":"GET","path":"/ping","query":"","ip":"127.0.0.1","user-agent":"curl/7.54.0","errors":"","cost":0.00007938}
+{"level":"INFO","time":"2021-10-15T17:20:48.175+0800","caller":"web_app/main.go:92","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-10-15T17:20:48.177+0800","caller":"web_app/main.go:101","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-10-15T17:22:49.048+0800","caller":"web_app/main.go:43","msg":"logger init success..."}
+{"level":"INFO","time":"2021-10-15T17:22:54.023+0800","caller":"web_app/main.go:92","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-10-15T17:22:54.027+0800","caller":"web_app/main.go:101","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-10-15T17:24:26.762+0800","caller":"web_app/main.go:43","msg":"logger init success..."}
+{"level":"INFO","time":"2021-10-15T17:24:33.389+0800","caller":"web_app/main.go:92","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-10-15T17:24:33.390+0800","caller":"web_app/main.go:101","msg":"Server exiting"}
