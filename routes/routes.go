@@ -25,13 +25,18 @@ func SetUp(mode string) *gin.Engine {
 		c.String(http.StatusOK, settings.Conf.Version)
 	})
 
-	r.POST("/signup", controller.SignUpHandler)
+	v1 := r.Group("/api/v1")
 
-	r.POST("/login", controller.LoginHandler)
+	v1.POST("/signup", controller.SignUpHandler)
 
-	r.GET("/ping", middleware.JWTAuthMiddleware(), func(c *gin.Context) {
-		c.String(http.StatusOK, "pong")
-	})
+	v1.POST("/login", controller.LoginHandler)
+
+	v1.Use(middleware.JWTAuthMiddleware())
+
+	{
+		v1.GET("/community", controller.CommunityHandler)
+		v1.GET("/community/:id", controller.CommunityDetailHandler)
+	}
 
 	r.NoMethod(func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{

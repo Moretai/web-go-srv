@@ -1,0 +1,25 @@
+
+
+# curl -H "Content-type: application/json" -X POST -d '{"username":"more","password":"110"}' http://127.0.0.1:8081/api/v1/login
+POST http://127.0.0.1:8081/api/v1/login
+Content-Type: application/json
+
+{
+  "username": "more",
+  "password": "110"
+}
+
+###
+
+# curl -H "Content-type: application/json" -X POST -d '{"username":"moretai","password":"110", "re_password":"110"}' http://127.0.0.1:8081/api/v1/signup
+POST http://127.0.0.1:8081/api/v1/signup
+Content-Type: application/json
+
+{
+  "username": "more",
+  "password": "110",
+  "re_password": "110"
+}
+
+###
+
