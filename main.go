@@ -34,7 +34,7 @@ func main() {
 	}
 	fmt.Println("init setting success...")
 	// 2. init log
-	if err := logger.Init(settings.Conf.LogConfig); err != nil {
+	if err := logger.Init(settings.Conf.LogConfig, settings.Conf.Mode); err != nil {
 		fmt.Printf("init logger failed, err: %v\n", err)
 		return
 	}
@@ -65,7 +65,7 @@ func main() {
 	fmt.Printf("init snowflake id: %d\n", snowflake.GenID())
 
 	// 5. register route
-	r := routes.SetUp()
+	r := routes.SetUp(settings.Conf.Mode)
 
 	// 6. startup service (terminal elegantly)
 
