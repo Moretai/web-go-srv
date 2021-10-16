@@ -7,8 +7,6 @@ import (
 	"web_app/models"
 )
 
-
-
 const secret = "more"
 
 func CheckUserExist(name string) (err error) {
@@ -50,5 +48,12 @@ func Login(u *models.User) (err error) {
 	if password != u.Password {
 		return ErrorInvalidPassword
 	}
+	return
+}
+
+func GetUserById(uid int64) (user *models.User, err error) {
+	user = new(models.User)
+	sqlStr := `select user_id, username from user where user_id = ?`
+	err = db.Get(user, sqlStr, uid)
 	return
 }

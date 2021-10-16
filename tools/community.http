@@ -9,3 +9,22 @@ Authorization: Bearer {{token}}
 GET {{url}}/community/2 HTTP/1.1
 content-type: application/json
 Authorization: Bearer {{token}}
+
+###
+
+POST {{url}}/post HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "author_id": 170545461638205440,
+  "community_id": 1,
+  "title": "hello~",
+  "content": "stark"
+}
+
+###
+
+GET {{url}}/post/171056505074749440 HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{token}}
